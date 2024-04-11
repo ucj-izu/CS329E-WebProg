@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Jigsaw Puzzle</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Solve a Jigsaw Puzzle">
+   <meta name="author" content="Ugo Izuegbunam">
+   <link href = 'HW10.css' rel = 'stylesheet'>
+</head> 
+<body>
+    <h2>Jigsaw Puzzle</h2>
+        <img id = 'grid' src = 'puzzle1/puzzleback.gif'>
+        <div id = 'button'>
+            <p id = 'timer'>Start</p>
+            <button id='stopButton' onclick = 'stopTimer()'>Done</button>  
+            
+        </div>
+    <div id = 'puzzle'>
+    <span style="position: absolute; top: 500px; left: 70px;" onmousedown="grabber(event);"> 
+        <img id = '0' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 500px; left: 170px;" onmousedown="grabber(event);"> 
+        <img id = '1' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 500px; left: 270px;" onmousedown="grabber(event);"> 
+        <img id = '2' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 500px; left: 370px;" onmousedown="grabber(event);"> 
+        <img id = '3' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 500px; left: 470px;" onmousedown="grabber(event);"> 
+        <img id = '4' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 500px; left: 570px;" onmousedown="grabber(event);"> 
+        <img id = '5' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 70px;" onmousedown="grabber(event);"> 
+        <img id = '6' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 170px;" onmousedown="grabber(event);"> 
+        <img id = '7' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 270px;" onmousedown="grabber(event);"> 
+        <img id = '8' src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 370px;" onmousedown="grabber(event);"> 
+        <img id = '9'  src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 470px;" onmousedown="grabber(event);"> 
+        <img id = '10'  src = "puzzle1/img1-1.jpg"> </span>
+    <span style="position: absolute; top: 600px; left: 570px;" onmousedown="grabber(event);"> 
+        <img id = '11'  src = "puzzle1/img1-1.jpg"> </span>
+    </div>
+<script type = 'text/javascript' src = 'HW10.js'></script>
+</body>
+</html>

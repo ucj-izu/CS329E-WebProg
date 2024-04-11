@@ -1,0 +1,55 @@
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 640px;
+    height: 480px;
+    border: 5px dotted gold;
+    border-radius: 5px;
+}
+
+    
+
+
+#caption {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 500px;
+    text-align: center;
+    border: 5px solid gold;
+    background-color: lightgray;
+
+}
+
+input {
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 525px;
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+    border-radius: 5px;
+}
+    
+
+h2 {
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+    text-decoration:  underline;
+    text-align: center;
+    color: gold;
+}
+
+body {
+
+    background-color: blueviolet;
+
+}
+
+#button {
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 640px;
+    height: 480px;
+    border-radius: 5px;
+    border-color: black;
+    
+}
+
+#buttons{
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 600px;
+    left: 0;
+    right: 0;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: beige;
+}

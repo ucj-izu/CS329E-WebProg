@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Mortgage Calculator</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Calculator for Mortgage">
+   <meta name="author" content="Ugo Izuegbunam">
+   <script src="HW6.js" defer></script>
+   <link href="HW6.css" rel = 'stylesheet'>
+   
+</head> 
+
+<body>
+<h2>Mortgage Calculator</h2>
+<div id = 'calculator'>
+<form method = 'POST' onsubmit = 'return false' action = ''>
+
+    <br><br>
+    <table>
+        <tr>
+            <td>
+    <label class = 'label'> Principal Amount (Dollars): </label>  <br>
+            </td>
+    <td>
+    <input name = 'principal' id = 'principal' type = 'text' size = '30' value = '0.00'>
+    </td>
+        </tr>
+        <tr>
+            <td>
+    <label class = 'label'> Yearly Interest Rate (Percent): </label>  <br>
+            </td>
+    <td>
+        <input name = 'interest' id = 'interest' type = 'text' size = '30' value = '0.00' placeholder = 'number between 0 & 1'>
+    </td>
+        </tr>
+    <tr>
+        <td>
+    <label class = 'label'> Loan Term (Months): </label> 
+        </td>
+        <td>
+     <input name = 'term' id = 'term' type = 'text' size = '30' value = '0'> <br>
+     </td>
+        </tr>
+    </table>
+    <br><br>
+    <p>
+    <button onclick = "monthlyPayment()">Calculate</button>
+    <input type = 'reset' value = 'Clear'>
+    <p>
+    <br><br>
+
+    <table>
+    <tr>
+        <td>
+    <label class = 'label'> Monthly Payments (Dollars): </label> 
+        </td>
+        <td>
+    <input readonly name = 'monthly_pay' id = 'monthly_pay' type = 'text' size = '30' value = "0.00">  <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class = 'label'> Sum of All Payments (Dollars): </label> 
+        </td>
+        <td>
+            <input readonly name = 'sum' id = 'sum' type = 'text' size = '30' value = "0.00">  <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class = 'label'> Total Interest Paid (Dollars): </label> 
+        </td>
+        <td>
+            <input readonly name = 'interest_pay' id = 'interest_pay' type = 'text' size = '30' value = "0.00">  <br>
+        </td>
+    </tr>
+    
+</table>
+</form>
+</div>
+
+
+</body>
+</html>

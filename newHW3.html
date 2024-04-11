@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+
+    
+
+
+<head>
+	<title>Campus Visit Feedback Form</title> 
+	<meta charset='UTF-8'> 
+	<meta name='description' content='HW3 for CS329E'> 
+	<meta name='author' content='Ugo Izuegbunam'>
+    <link href = 'newHW3.css' rel = 'stylesheet' >
+    <link href = 'ut_seal.png' rel = 'icon' >
+</head>
+
+<body>
+    
+<form method = "POST" action = "http://www.cknuckles.com/cgi/echo.cgi">
+<h1 id = 'form_title'>UT Austin Visit Feedback Form</h1>
+
+<img src = 'ut_image.jpg' alt = 'Picture of UT Austin'>
+
+<br>
+
+<table>
+    
+   <tr>
+      
+      <td>   
+         
+            <label><b> Name: </b></label>
+         
+      </td>
+      <td>
+         
+            <input name = "name" type = "text" size = "30" >
+         
+      </td>
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr>
+      <td>
+         
+            <label><b> Street Address: </b> </label>
+         
+      </td>
+      <td>
+         
+            <input name = "street address" type = "text" size = "30" >
+         
+      </td>
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr>
+      <td>   
+         
+            <label><b> Email Address: </b> </label> 
+         
+      </td>
+      <td>
+         
+            <input name = "email" type = "text" size = "30" >
+         
+      </td>
+      
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr>
+      <td>   
+         
+            <label><b>Things You Liked:</b></label>
+         
+      </td>
+      <td>
+         
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "students" > <label> Students </label> <br>
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "campus" > <label> Campus</label> <br>
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "courses offered" > <label> Courses Offered  </label> <br>
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "location" > <label> Location </label> <br>
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "housing" > <label> Housing </label> <br>
+             <input class = 'choice' name = "attraction[]" type = "checkbox" value = "sports" > <label> Sports </label> <br>
+         
+      </td>
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr>
+      <td>   
+         
+            <label><b>How Did You Find Us?</b></label>
+         
+      </td>
+      <td>
+         
+             <input class = 'choice' name = "connection" type = "radio" value = "search" > <label> Internet </label> <br>
+             <input class = 'choice' name = "connection" type = "radio" value = "tv" > <label> Television </label> <br> 
+             <input class = 'choice' name = "connection" type = "radio" value = "rec" > <label> Recommendation from family </label> <br>
+             <input class = 'choice' name = "connection" type = "radio" value = "rec" > <label> Recommendation from friend</label> <br>
+             <input class = 'choice' name = "connection" type = "radio" value = "other" > <label> Other </label> <br>
+
+      </td>
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr>
+      <td>
+         
+            <label> <b>Departments Visited: </b></label>
+      </td>   
+        
+      <td>
+               <select name = "rating" >
+                  <option selected = "selected"> No Selection </option>
+                     <option> School of Architecture </option>
+                     <option> Red McCombs School of Business </option>
+                     <option> Moody College of Communication </option>
+                     <option> College of Education </option>
+                     <option> Cockrell School of Engineering </option>
+                     <option> College of Fine Arts </option>
+                     <option> John A. and Katherine G. Jackson School of Geosciences </option>
+                     <option> Graduate School </option>
+                     <option> School of Information </option>
+                     <option> School of Law </option>
+                     <option> College of Liberal Arts </option>
+                     <option> Dell Medical School </option>
+                     <option> College of Natural Sciences </option>
+                     <option> School of Nursing </option>
+                     <option> College of Pharmacy </option>
+                     <option> Lyndon B. Johnson School of Public Affairs </option>
+                     <option> Steve Hicks School of Social Work </option>
+                     <option> Undergraduate College </option>
+                  </select>
+         
+      </td>
+         
+   </tr>
+   <tr><td></td><td></td></tr>
+   <tr><td></td><td></td></tr>
+   <tr>   
+      <td>
+         
+            <label> <b>Additional Comments: </b> </label>
+         
+      </td>
+      <td>
+         
+               <textarea name = "comments" rows = "10" cols = "60" > </textarea>
+         
+      </td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>
+            <input type = "submit" value = "Enter" >
+            <input type = "reset" value = "Clear" >
+      </td>
+   </tr>
+
+</table>
+
+</form>
+</body>
+</html>

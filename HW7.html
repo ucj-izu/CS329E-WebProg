@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+   <title>Random Images</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Random Images of Galaxies">
+   <meta name="author" content="Ugo Izuegbunam">
+   <link href = "NGC6217.jpg" rel = 'icon'>
+   <link href = "HW7.css" rel = 'stylesheet'>
+   <script type = 'text/javascript' src = 'HW7.js'></script>
+</head> 
+
+
+
+
+<body onload = 'changeImgAndCaption()'>
+    <h2>Galaxies</h2>
+    <form action>
+       <p>
+            <img class="img1" id="ngc6217" src="NGC6217.jpg" alt="(Picture of NGC6217)"  style="z-index: 10;">
+            <img class="img2" id="m104" src="M104.jpg" alt="(Picture of M104)"  style="z-index: 0;">
+            <img class="img3" id="m51" src="M51.jpg" alt="(Picture of M51)"  style="z-index: 0;">
+            <img class="img4" id="interactGalaxy" src="InteractingGalaxies.jpg" alt="(Picture of Interacting Galaxies)"  style="z-index: 0;">
+            <img class="img5" id="ngc1300" src="NGC1300.jpg" alt="(Picture of NGC1300)"  style="z-index: 0;">
+            <img class="img6" id="galaxyCluster" src="GalaxyCluster.jpg" alt="(Picture of Galaxy Cluster)"  style="z-index: 0;">
+        </p> 
+        <p>
+            <input disabled type = 'textbox' id = 'caption' name = 'picture'></input>
+        <p>
+        <p class = 'button'>
+            <input type = 'button' id ='button' value = 'Change Image' onclick = 'changeImgAndCaption()'>
+        </p>
+
+    </form>
+</body>
+</html>

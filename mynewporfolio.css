@@ -1,0 +1,55 @@
+ul {
+    list-style-type: square;
+    color: rgb(13, 201, 13);
+
+}
+
+p, h1, h2 {
+  font-family: monospace;
+  color: rgb(13, 201, 13);
+  
+}
+
+h1,h2 {
+    border: 3px dashed rgb(13, 201, 13);
+    border-radius: 3px;
+}
+
+div {
+    width: 25%;
+    float: left;
+}
+
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+    font-family: monospace;
+}
+
+hr, img {
+    border: 2px solid rgb(13, 201, 13);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 75px;
+    margin-top: -200px;
+}

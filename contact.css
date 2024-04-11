@@ -1,0 +1,54 @@
+#form_title {
+    text-align: center;
+    font-family: sans-serif;
+    border: solid;
+    background-color: rgb(193, 154, 107);
+    border-radius: 20px;
+    
+    
+}
+
+body {
+    background-color: rgba(133,133,133,.25);
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: solid;
+    border-radius: 20px;
+}
+h2 {
+    background-color: darkred;
+}       
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    padding-bottom: 0%;
+    font-family: sans-serif;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    
+
+}
+
+.choice{
+    color:black;
+}
+
+textarea, select, input {
+
+    background-color: rgba(133,133,133,.25);
+    border-radius: 10px;
+}
+p {
+    text-align: center;
+}
